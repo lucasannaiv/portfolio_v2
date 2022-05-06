@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- arrow design -->
+    <script src="https://kit.fontawesome.com/6c40f65332.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Port.css">
+
+    <title>Lucas Vianna</title>
+</head>
+<body>
+    <header>    
+        <nav>
+            <ul class="lista_footer">
+                <li>
+                    <a href="https://github.com/lucasannaiv">
+                        <i class="fa-brands fa-github">
+                            <p>Github</p>
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/lucas-vianna-476558a8/">
+                        <i class="fa-brands fa-linkedin-in">
+                            <p>Linkedin</p>
+                        </i>                        
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/21976959155">
+                        <i class="fa-brands fa-whatsapp">
+                            <p>Whatsapp</p> 
+                        </i>                        
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Lucas Vianna</h1>
+                <h5>Data Engineer</h5>
+            </div>
+
+            <div>
+                <img src="" alt="">
+            </div>
+
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-square-caret-down"></i>
+            </div>
+
+            <div style="display: none;" id="about">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi quod doloremque, sapiente aliquid, voluptatum at similique tempore quia nulla tempora excepturi cum fugit. Ducimus excepturi est enim eum quas ullam modi, minima quisquam quae culpa, ab adipisci, nulla ea. Ab enim omnis libero adipisci, temporibus culpa magnam fuga, consequatur et doloribus deserunt, exercitationem impedit ipsa dignissimos corporis consectetur harum repudiandae rerum unde. Voluptate debitis voluptatibus quisquam incidunt asperiores laboriosam, cupiditate, hic ab totam doloribus illo delectus tempore consequatur. Numquam doloribus omnis eum qui praesentium quo dicta repellendus provident aspernatur eaque sunt et, voluptatibus deserunt repellat. Soluta, exercitationem eos, perspiciatis ratione iusto obcaecati voluptatem reiciendis explicabo alias doloribus sit fugit dolore odit! Hic voluptate totam dignissimos consectetur enim libero aspernatur a expedita! Earum.
+                </p>
+            </div>
+
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="e-mail">
+                    <button>enviar!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
