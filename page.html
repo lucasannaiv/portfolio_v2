@@ -13,14 +13,20 @@
     <!-- arrow design -->
     <script src="https://kit.fontawesome.com/6c40f65332.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="Port.css">
+    <!-- css styling -->
+    <link rel="stylesheet" href="css/portfolio.css">
 
     <title>Lucas Vianna</title>
 </head>
 <body>
-    <header>    
-        <nav>
+    <header>
+        <nav>    
             <ul class="lista_footer">
+                <li id="easter_egg">
+                    <a href="pagetwo.html">
+                        <p>Wally</p>
+                    </a>
+                </li>
                 <li>
                     <a href="https://github.com/lucasannaiv">
                         <i class="fa-brands fa-github">
@@ -76,14 +82,7 @@
         </section>
     </main>
 
-    <script>
-        function displayAbout() {
-            var arrow = document.getElementById('animation');
-            arrow.classList.toggle('rotate');
+    <script src="index.js"></script>
 
-            var display = document.getElementById('about');
-            display.classList.toggle('active');
-        }
-    </script>
 </body>
 </html>

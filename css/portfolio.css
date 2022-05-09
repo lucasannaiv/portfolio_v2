@@ -6,23 +6,27 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
 ul {
     list-style: none;
     font-size: large;
+    padding: 1px;
+    margin: 1px;
 }
 
 li {
-    text-align: right;
-    font-size: medium;
-    margin: 3px;
+    text-align: center;
+    font-size: medium;    
 }
 
 a {
     text-decoration: none;
+    text-align: center;
 }
 
+
 body {
-    background-image: url(pexels.webp);
+    background-image: url('../images/pexels.webp');
     background-repeat: no-repeat;
     background-position: center fixed;
     background-size: cover;
@@ -32,33 +36,78 @@ body {
 
 header {
     display: flex;
-    justify-content: right;
-    padding: 10px;
-    margin-right: 50px;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    padding: 2px;
     /* border: 1px solid white;
     box-shadow: 1px 1px 10px 1px; */
 }
 
+nav {
+    display: right;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 10px;  
+    text-align: left;
+}
+
+
 header ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 1px;
+    
 }
 
 header ul li {
-    padding: 10px;
+    text-align: center;
+    padding: 2px;
     margin-top: 10px;
+    width: 120px;
     transition: 200ms;
 }
 
 header ul li a i p{
+    text-align: center;
     color: white;
     display: inline;
     margin: 5px;
+    justify-content: center;
+
 }
+
+
+.lista_footer {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+#easter_egg a p{
+    color: black;
+    text-align: left;
+}
+
+#easter_egg a p:hover{
+    color: gold;
+}
+
+.lista_footer li a i p {
+    display: inline;
+    margin-top: 20px;
+}
+
 
 header ul li a i:hover {
     color: white;
     text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
 }
 
 main section div h1 {
@@ -162,6 +211,7 @@ main section div h5 {
     body {
         background-size:cover;
         min-height: 1000px;
+        box-sizing: border-box;
         }
 }
 
@@ -170,6 +220,5 @@ main section div h5 {
         background-size: cover;
         background-position: center center fixed;
         min-height: 1200px;
-        
-
     }
+}
