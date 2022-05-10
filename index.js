@@ -7,4 +7,3 @@ function displayAbout() {
     display.classList.toggle('active');
     }
 
-
