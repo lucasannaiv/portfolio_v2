@@ -13,110 +13,81 @@
     <!-- arrow design -->
     <script src="https://kit.fontawesome.com/6c40f65332.js" crossorigin="anonymous"></script>
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- css styling -->
     <link rel="stylesheet" href="css/portfolio.css">
 
     <title>Lucas Vianna</title>
 </head>
 <body>
-    <header>
-        <nav id="header-nav">    
-            <ul class="header_list">
-                <li id="easter_egg">
-                    <a href="pagetwo.html">
-                        <p>Wally</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/lucasannaiv">
-                        <i class="fa-brands fa-github">
-                            <p>Github</p>
-                        </i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/lucas-vianna-476558a8/">
-                        <i class="fa-brands fa-linkedin-in">
-                            <p>Linkedin</p>
-                        </i>                        
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/21976959155">
-                        <i class="fa-brands fa-whatsapp">
-                            <p>Whatsapp</p> 
-                        </i>                        
-                    </a>
-                </li>
-            </ul>
+    <menu class="main-menu">
+        <div class="main-menu_top">
+            <a class="mein-logo" rel="home" href="https://lucasannaiv.github.io/portfolio/">
+                <svg version="1.0" xmls="" width="60" height="72" viewBox="0 0 53 72" preserveAspectRatio="xMidYmid meet">
+                    <g transform="translate(-5.0) scale(0.1, -0.1)" fill="#05fdd8" stroke="none"></g>
+                    <g transform="translate(0, 72.0) scale(0.1, -0.1)" fill="#fd2155" stroke="none"></g>
+                </svg>
+                <span>Lucas</span>
+            </a>
+            <span>Data Engineer <br> Fullstack Developer</span>
+            <span id="info">ps: Yeah, this site still needs a lot of work ;)</span>
+        </div>            
+        <nav class="main-menu_nav">
+            <a href="https://lucasannaiv.github.io/portfolio/about/">About</a>
+            <a href="https://lucasannaiv.github.io/portfolio/skills">Skills</a>
+            <a href="https://lucasannaiv.github.io">Portfolio</a>
+            <a href="https://lucasannaiv.github.io/portfolio/contact">Contact</a>      
         </nav>
-    </header>
+        <ul class="social-media">
+            <li>
+                <a href="https://www.linkedin.com/in/lucas-vianna-476558a8/">
+                    <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                </a>   
+            </li>
+            <li>             
+                <a href="https://github.com/lucasannaiv/">
+                    <i class="fa fa-github" style="font-size:24px"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-whatsapp" style="font-size:24px"></i>
+                </a>
+            </li>
 
+        </ul>        
+    </menu>
     <main>
-        <section class="container">
-            <div class="name">
-                <h1>Lucas Vianna</h1>
-                <h5>Data Engineer</h5>
+        <section id="section-about" data-load="about">
+            <div class="scroll-down">
+                <span>scroll down</span>
             </div>
-
-            <div>
-                <img src="" alt="">
-            </div>
-
-            <div onclick="displayAbout()" id="arrow">
-                <i id="animation" class="fa-solid fa-square-caret-down"></i>
-            </div>
-
-            <div style="display: none;" id="about">
+            <div class="text-area">
+                <header>
+                    <h1>Lucas Vianna, <br> Fullstack Developer</h1>
+                </header>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi quod doloremque, sapiente aliquid, voluptatum at similique tempore quia nulla tempora excepturi cum fugit. Ducimus excepturi est enim eum quas ullam modi, minima quisquam quae culpa, ab adipisci, nulla ea. Ab enim omnis libero adipisci, temporibus culpa magnam fuga, consequatur et doloribus deserunt, exercitationem impedit ipsa dignissimos corporis consectetur harum repudiandae rerum unde. Voluptate debitis voluptatibus quisquam incidunt asperiores laboriosam, cupiditate, hic ab totam doloribus illo delectus tempore consequatur. Numquam doloribus omnis eum qui praesentium quo dicta repellendus provident aspernatur eaque sunt et, voluptatibus deserunt repellat. Soluta, exercitationem eos, perspiciatis ratione iusto obcaecati voluptatem reiciendis explicabo alias doloribus sit fugit dolore odit! Hic voluptate totam dignissimos consectetur enim libero aspernatur a expedita! Earum.
+                    Hi, formally I'm a chemical engineer. However, now I am pursuing an old passion.
+                </p>
+                <p>
+                    I started with C, Python and R for academic purposes. Now I am going deeper on Scala, HTML, CSS, JavaScript and Apache (Hadoop, Kafka, Flume).
                 </p>
             </div>
 
-            <div class="form">
-                <form action="">
-                    <input type="text" placeholder="e-mail">
-                    <button>enviar!</button>
-                </form>
-            </div>
         </section>
-        <section class="mid_container">
+        <section>
+
 
 
         </section>
+
 
     </main>
     
-    <!-- <footer id="footer" role="contentinfo" style="opacity: 1; top: 0px;">
+    
 
-        <div class="row">
     
-            <div class="col">
-    
-                <div class="left"><a class="transition" href="">© 2022 Lucas Vianna</a></div>
-                
-                <nav id="nav-footer">
-    
-                    <ul>
-                        <li class="page_item page-item-2"><a href="">about</a></li>
-                        <li class="page_item page-item-735"><a href="k">book</a></li>
-                        <li class="page_item page-item-5"><a href="">featured</a></li>
-                        <li class="page_item page-item-7"><a href="">portfolio</a></li>
-                        <li class="page_item page-item-9"><a href="">blog</a></li>
-                        <li class="page_item page-item-11"><a href="">contact</a></li>
-                    </ul>
-    
-                </nav>
-    
-            </div>
-    
-        </div>
-    
-        <div class="screen_top">
-            <a class="top" href="#top">Back to top</a>
-        </div>
-    
-    </footer> -->
 
     <script src="index.js"></script>
 
